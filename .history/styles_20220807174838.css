@@ -26,10 +26,10 @@
 .card {
   background: var(--azul);
   width: 40rem;
-  height: 27rem;
+  height: 26rem;
   border-radius: 20px;
   padding: 2rem;
-  margin: 2rem auto;
+  margin: 6rem auto;
   box-shadow: 10px 10px 20px 1px var(--greengreen)
 }
 
@@ -119,9 +119,8 @@ button {
 #resultado {
     font-weight: bold;
     color: var(--amarelo-katie);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
-    
 }
 
 button:hover {

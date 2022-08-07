@@ -3,9 +3,11 @@ function Converter() {
   let output = document.getElementById("resultado");
   let de = document.getElementById("moedasde");
   let para = document.getElementById("moedaspara");
-  
+  if(para.value == "Moeda 2"){
+    output.innerHTML = "Escola a segunda moeda"
+  }
   if (isNaN(input)) {
-    output.innerHTML = "Por favor, adicione um valor para converter e selecione as moedas!";
+    output.innerHTML = "Por favor, adicione um valor para converter!";
   } else {
     if (de.value == "BRL" && para.value != "para" && input != NaN) {
       console.log("real");

@@ -5,7 +5,7 @@ function Converter() {
   let para = document.getElementById("moedaspara");
   
   if (isNaN(input)) {
-    output.innerHTML = "Por favor, adicione um valor para converter e selecione as moedas!";
+    output.innerHTML = "Por favor, adicione um valor para converter!";
   } else {
     if (de.value == "BRL" && para.value != "para" && input != NaN) {
       console.log("real");
