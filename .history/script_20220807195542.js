@@ -17,14 +17,9 @@ function Converter() {
         valor = "O valor em euros é: €" + (valorEmReais * 0.1885).toFixed(2);
       } else if (para.value == "USD") {
         valor = "O valor em dólar é: $" + (valorEmReais * 0.1917).toFixed(2);
-      }else if(para.value == "BGP"){
-        valor = "O valor em libra é: £" + (valorEmReais * 0.16).toFixed(2);
       }
       output.innerHTML = valor;
-    } 
-    
-    
-    else if (de.value == "EUR" && para.value != "Moeda 2") {
+    } else if (de.value == "EUR" && para.value != "Moeda 2") {
       let valorEmEuros = input;
       let valor;
 
@@ -34,14 +29,9 @@ function Converter() {
         valor = "O valor em dólar é: $" + (valorEmEuros * 1.0167).toFixed(2);
       } else if (para.value == "BRL") {
         valor = "O valor em reais é: R$" + (valorEmEuros * 5.303).toFixed(2);
-      }else if(para.value == "BGP"){
-        valor = "O valor em libra é: £" + (valorEmEuros * 0.84).toFixed(2)
       }
       output.innerHTML = valor;
-    } 
-    
-    
-    else if (de.value == "USD" && para.value != "Moeda 2") {
+    } else if (de.value == "USD" && para.value != "Moeda 2") {
       let valorEmDolar = input;
       let valor;
 
@@ -51,28 +41,22 @@ function Converter() {
         valor = "O valor em dólar é: R$" + (valorEmDolar * 5.16).toFixed(2);
       } else if (para.value == "EUR") {
         valor = "O valor em dólar é: €" + (valorEmDolar * 0.9832).toFixed(2);
-      }else if(para.value == "BGP"){
-        valor = "O valor em libra é: £" + (valorEmDolar * 0.83).toFixed(2)
       }
       output.innerHTML = valor;
-    } 
-    
-    
-    else if(de.value == "BGP" && para.value != "Moeda 2"){
+    } else if(de.value == "BGP" && para.value != "Moeda 2"){
       let valorEmLibra = input;
       let valor;
 
       if( para.value == "BGP"){
-        valor = "O valor em libra é: £" + valorEmLibra.toFixed(2);
+        valor = "O valor em libra é: £" + valorEmLibra.tofixed(2);
       }else if(para.value =="USD"){
-        valor = "O valor em dólar é: $" + (valorEmLibra * 1.21).toFixed(2);
+        valor = "O valor em dólar é: $" + (valorEmLibra * 1.21).tofixed(2)
       }else if(para.value == "BRL"){
-        valor = "O valor em reais é: R$" + (valorEmLibra * 6.23).toFixed(2);
-      }else if(para.value == "EUR"){
-        valor = "O valor em euros é: €" + (valorEmLibra * 1.19).toFixed(2);
+        valor = "O valor em reais é: R$" + (valorEmLibra *).tofixed(2)
       }
-      output.innerHTML = valor;
     }
+
+    
     else {
       output.innerHTML = "";
     }

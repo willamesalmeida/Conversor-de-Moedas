@@ -18,7 +18,7 @@ function Converter() {
       } else if (para.value == "USD") {
         valor = "O valor em dólar é: $" + (valorEmReais * 0.1917).toFixed(2);
       }else if(para.value == "BGP"){
-        valor = "O valor em libra é: £" + (valorEmReais * 0.16).toFixed(2);
+        valor = "O valor em libra é: £" + (valorEmReais * 0.16).tofixed(2);
       }
       output.innerHTML = valor;
     } 
