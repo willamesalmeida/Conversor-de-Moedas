@@ -9,6 +9,7 @@ function Converter() {
       "Por favor, adicione um valor para converter e selecione as moedas!";
   } else {
     if (de.value == "BRL" && para.value != "para") {
+      console.log("real");
       let valorEmReais = input;
       let valor;
       if (para.value == "BRL") {

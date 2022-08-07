@@ -3,12 +3,12 @@ function Converter() {
   let output = document.getElementById("resultado");
   let de = document.getElementById("moedasde");
   let para = document.getElementById("moedaspara");
-
+  
   if (isNaN(input)) {
-    output.innerHTML =
-      "Por favor, adicione um valor para converter e selecione as moedas!";
+    output.innerHTML = "Por favor, adicione um valor para converter e selecione as moedas!";
   } else {
     if (de.value == "BRL" && para.value != "para") {
+      console.log("real");
       let valorEmReais = input;
       let valor;
       if (para.value == "BRL") {
@@ -20,6 +20,7 @@ function Converter() {
       }
       output.innerHTML = valor;
     } else if (de.value == "EUR" && para.value != "Moeda 2") {
+      console.log("euro");
       let valorEmEuros = input;
       let valor;
 
@@ -32,6 +33,7 @@ function Converter() {
       }
       output.innerHTML = valor;
     } else if (de.value == "USD" && para.value != "Moeda 2") {
+      console.log("entrou no else is do dolar");
       let valorEmDolar = input;
       let valor;
 

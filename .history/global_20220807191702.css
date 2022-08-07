@@ -2,18 +2,16 @@
 :root {
   --rosa-katie: #f8049c;
   --amarelo-katie: #fdd54f;
+  --cinza-katie: #1f1f24;
   --rosa-claro: #EF5AA7;
   --branco:  #ffffff;
   --grey2: #EBEBF3;
-  --cinza-katie: #1f1f24;
+  /*  --red:#FF0000;
   --blue: #3A6CF5;
-  /*
-  --red:#FF0000;
   --gray:#E8E8E8;
   --greendark:#007560;
   --greenlight:#27EDC4;
-  --greenciano:#51EFD0;
-  */
+  --greenciano:#51EFD0; */
   --azul:#006CF9;
   --greengreen:#00EB92;
 }

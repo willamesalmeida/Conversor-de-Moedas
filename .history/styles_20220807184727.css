@@ -75,7 +75,7 @@ select {
 }
 select{
   text-align: center;
-  background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;
+  /* padding: 1em 1.5 auto; */
 }
 input {
     padding: 0.8rem;
