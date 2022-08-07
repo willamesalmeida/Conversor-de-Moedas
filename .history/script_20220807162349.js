@@ -13,9 +13,9 @@ function Converter() {
     if (para.value == "BRL") {
       valor = "O valor em reais é: R$" + valorEmReais.toFixed(2);
     } else if (para.value == "EUR") {
-      valor = "O valor em euros é: €" + (valorEmReais * 0.1885).toFixed(2);
+      valor = "O valor em euros é: €" + (valorEmReais * 0.1885).toFixed(3);
     } else if (para.value == "USD") {
-      valor = "O valor em dólar é: $" + (valorEmReais * 0.1917).toFixed(2);
+      valor = "O valor em dólar é: $" + (valorEmReais * 0.1917).toFixed(3);
     }
     output.innerHTML = valor;
 

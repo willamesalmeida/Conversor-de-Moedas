@@ -5,7 +5,7 @@
 
 .gif-katie {
   margin-left: 3rem;
-  height: 3rem;
+  height: 4rem;
 }
 .cabecalho{
   display: flex;
@@ -34,6 +34,7 @@
 }
 
 header h2 {
+  
   font-size: 2rem;
 }
 
