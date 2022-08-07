@@ -1,5 +1,4 @@
-# Conversor de Moedas - Cursos de Inverno Projeto Katie :money_with_wings:
-*mais sobre o Katie: [clique aqui e veja nosso site](https://ic.ufal.br/extensao/katie/)*
+# Conversor de Moedas - Desafio do Curso de Inverno do Projeto Katie :money_with_wings:
 
 ![Conversor de Moedas](/conversor.gif)
 
